@@ -1,7 +1,7 @@
 export function TitleCard() {
   return (
-    <div className="mx-auto max-w-6x1 px-6 py-20">
-      <h1 className="text-5x1 font-bold tracking-tight">
+    <div className="mx-auto max-w-6xl px-6 py-20">
+      <h1 className="text-5xl font-bold tracking-tight">
         RJ Catterton
       </h1>
 

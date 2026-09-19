@@ -1,16 +1,20 @@
 import { ProjectCard } from './components/ProjectCard'
+import { softwareProjects } from './data/softwareProjects';
 
 function Software() {
   return (
-    <div className="mx-auto max-w-6x1 px-6 py-20">
-      <h2 className="text-5x1 font-bold tracking-tight">
+    <div className="mx-auto max-w-6xl px-6 py-20">
+      <h2 className="text-5xl font-bold tracking-tight">
         Software
       </h2>
 
-      <div className="flex gap-6">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+      <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {softwareProjects.map((project) => (
+          <ProjectCard
+            key={project.title}
+            project={project}
+          />
+        ))}
       </div>
     </div>
   );
