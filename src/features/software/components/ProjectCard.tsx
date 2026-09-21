@@ -13,7 +13,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         <img
           src={project.image}
           alt={`${project.title} preview`}
-          className="aspect-video w-full bg-zinc-950 object-cover"
+          className="aspect-video w-full border-b border-zinc-800 bg-zinc-950 object-cover"
         />
       )}
 

@@ -8,7 +8,7 @@ function Software() {
         Software
       </h2>
 
-      <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+      <div className="mt-8 grid gap-6 md:grid-cols-2">
         {softwareProjects.map((project) => (
           <ProjectCard
             key={project.title}
