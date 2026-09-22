@@ -1,5 +1,5 @@
 import { ProjectCard } from './components/ProjectCard'
-import { softwareProjects } from './data/softwareProjects';
+import { softwareProjects } from './data/softwareProjects'
 
 function Software() {
   return (

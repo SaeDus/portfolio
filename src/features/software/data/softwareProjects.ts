@@ -1,5 +1,5 @@
 import type { Project } from "../types/Project";
-import sampleImage from "../../../assets/projects/game-companion/Sample_Image.webp"
+import sampleImage from "../../../assets/Sample_Image.webp";
 
 export const softwareProjects: Project[] = [
   {

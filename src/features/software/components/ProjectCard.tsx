@@ -8,7 +8,6 @@ interface ProjectCardProps {
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900">
-
       {project.image && (
         <img
           src={project.image}
