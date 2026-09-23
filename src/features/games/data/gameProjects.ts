@@ -26,7 +26,7 @@ export const gameProjects: Game[] = [
     genre: "Surveillance Horror",
     role: "Gameplay Programmer",
 
-    description: "Isometric spot-the-difference horror prototype where players monitor remove environments for subtle anomalies through a surveillance hub.",
+    description: "Isometric spot-the-difference horror prototype where players monitor remote environments for subtle anomalies through a surveillance hub.",
 
     image: sampleImage,
 

@@ -44,7 +44,7 @@ export const softwareProjects: Project[] = [
     ],
 
     highlights: [
-      "Built grid-based movement with deterministic logical positioning and smooth visual interpoloation",
+      "Built grid-based movement with deterministic logical positioning and smooth visual interpolation",
       "Implemented fog-of-war visibility calculations on the GPU",
       "Used sliding visibility windows, texture data, bitwise operations, and a custom shader",
     ],

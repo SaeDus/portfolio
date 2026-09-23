@@ -5,7 +5,7 @@ function Software() {
   return (
     <section
       id="software"
-      className="mx-auto max-w-6xl px-6 py-20"
+      className="mx-auto w-full max-w-6xl px-6 py-16"
     >
       <h2 className="text-4xl font-bold tracking-tight">
         Software
