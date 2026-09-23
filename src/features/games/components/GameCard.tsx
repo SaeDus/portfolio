@@ -89,8 +89,8 @@ export function GameCard({ game }: GameCardProps) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-100 transition hover:bg-zinc-800"
               >
-                <ExternalLink className="h-4 w-4" />
                 Details
+                <ExternalLink className="h-4 w-4" />
               </a>
             )}
           </div>

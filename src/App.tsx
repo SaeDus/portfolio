@@ -1,4 +1,5 @@
 import { TitleCard } from './components/TitleCard'
+import { PersonalCard } from './components/PersonalCard'
 import { SocialCard } from './components/SocialCard'
 
 import Games from './features/games/Games'
@@ -12,6 +13,7 @@ function App() {
       <TitleCard />
       <Games />
       <Software />
+      <PersonalCard />
       <SocialCard />
     </main>
   )
