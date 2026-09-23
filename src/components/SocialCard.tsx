@@ -45,6 +45,10 @@ export function SocialCard() {
           <ExternalLink className="h-5 w-5" />
         </a>
       </div>
+
+      <p className="mt-8 text-sm leading-relaxed text-zinc-500">
+        © RJ Catterton
+      </p>
     </section>
   );
 }
