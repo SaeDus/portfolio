@@ -2,7 +2,10 @@ import { GitBranch, ExternalLink } from 'lucide-react'
 
 export function TitleCard() {
   return (
-    <div className="mx-auto max-w-6xl px-8 py-12 my-24 rounded-xl border border-zinc-800 bg-zinc-900">
+    <section
+      id="title"
+      className="mx-auto max-w-6xl px-8 py-12 my-24 rounded-xl border border-zinc-800 bg-zinc-900"
+    >
       <h1 className="text-5xl font-bold tracking-tight">
         RJ Catterton
       </h1>
@@ -37,6 +40,6 @@ export function TitleCard() {
           <ExternalLink className="h-4 w-4" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }

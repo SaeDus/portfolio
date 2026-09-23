@@ -2,7 +2,10 @@ import { GitBranch, ExternalLink, Mail } from 'lucide-react'
 
 export function SocialCard() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-6 mt-12 mb-8 rounded-xl border border-zinc-800 bg-zinc-900 p-6">
+    <section
+      id="social"
+      className="mx-auto max-w-6xl px-6 py-6 mt-12 mb-8 rounded-xl border border-zinc-800 bg-zinc-900 p-6"
+    >
       <h2 className="text-4xl font-bold tracking-tight">
         Let's Connect
       </h2>

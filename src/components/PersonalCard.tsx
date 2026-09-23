@@ -1,6 +1,9 @@
 export function PersonalCard() {
   return (
-    <div className="mx-auto max-w-6xl px-6 py-20">
+    <section
+      id="personal"
+      className="mx-auto max-w-6xl px-6 py-20"
+    >
       <h2 className="text-4xl font-bold tracking-tight">
         About Me
       </h2>
@@ -27,6 +30,6 @@ export function PersonalCard() {
           </p>
         </div>
       </article>
-    </div>
+    </section>
   );
 }
