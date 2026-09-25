@@ -1,4 +1,4 @@
-import { GitBranch, ExternalLink, Mail } from 'lucide-react'
+import { GitBranch } from 'lucide-react'
 
 export function SocialCard() {
   return (
@@ -16,16 +16,6 @@ export function SocialCard() {
         </p>
 
         <div className="flex gap-4 mt-8">
-          {/* <a */}
-          {/*   href="#" */}
-          {/*   target="_blank" */}
-          {/*   rel="noopener noreferrer" */}
-          {/*   className="inline-flex items-center gap-2 p-2 text-zinc-400 transition hover:text-white" */}
-          {/* > */}
-          {/*   <Mail className="h-5 w-5" /> */}
-          {/*   Contact */}
-          {/* </a> */}
-
           <a
             href="https://github.com/SaeDus"
             target="_blank"
