@@ -1,5 +1,8 @@
 import type { Project } from "../types/Project";
-import sampleImage from "../../../assets/Sample_Image.webp";
+import gameCompanionImage from "../../../assets/projects/game-companion/game-companion-banner.webp";
+import masterOfDisguiseImage from "../../../assets/projects/master-of-disguise/master-of-disguise-banner.webp";
+import spectralSurveillanceImage from "../../../assets/projects/spectral-surveillance/spectral-surveillance-banner.webp";
+import stealthPerimeterImage from "../../../assets/projects/stealth-perimeter/stealth-perimeter-banner.webp";
 
 export const softwareProjects: Project[] = [
   {
@@ -7,7 +10,7 @@ export const softwareProjects: Project[] = [
     subtitle: "Desktop Companion Application",
     description: "Desktop companion framework for game-specific tools, save-data extraction, and portable character data.",
 
-    image: sampleImage,
+    image: gameCompanionImage,
 
     technologies: [
       "React",
@@ -33,7 +36,7 @@ export const softwareProjects: Project[] = [
     subtitle: "Gameplay Systems & GPU Programming",
     description: "Top-down stealth game featuring deterministic movement, grid-based navigation, and GPU-driven visibility systems.",
 
-    image: sampleImage,
+    image: masterOfDisguiseImage,
 
     technologies: [
       "Unity",
@@ -56,7 +59,7 @@ export const softwareProjects: Project[] = [
 
     description: "Surveillance gameplay prototype built around multi-scene runtime architecture and remote camera rendering.",
 
-    image: sampleImage,
+    image: spectralSurveillanceImage,
 
     technologies: [
       "Unity",
@@ -79,7 +82,7 @@ export const softwareProjects: Project[] = [
 
     description: "Reusable stealth-AI toolkit for route evaluation, player movement prediction, and modular enemy behavior.",
 
-    image: sampleImage,
+    image: stealthPerimeterImage,
 
     technologies: [
       "Unity",

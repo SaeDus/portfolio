@@ -1,5 +1,8 @@
 import type { Game } from "../types/Game";
-import sampleImage from "../../../assets/Sample_Image.webp";
+import masterOfDisguiseImage from "../../../assets/projects/master-of-disguise/master-of-disguise-banner.webp";
+import spectralSurveillanceImage from "../../../assets/projects/spectral-surveillance/spectral-surveillance-banner.webp";
+import excaliburImage from "../../../assets/projects/the-excalibur/the-excalibur-banner.webp";
+import rnrTDImage from "../../../assets/projects/rnr-td/rnr-td-banner.webp";
 
 export const gameProjects: Game[] = [
   {
@@ -9,7 +12,7 @@ export const gameProjects: Game[] = [
 
     description: "Top-down game in development focused on grid movement, fog of war, interaction, and large-scale AI navigation for hundreds of agents.",
 
-    image: sampleImage,
+    image: masterOfDisguiseImage,
 
     engine: "Unity",
     status: "In Development",
@@ -28,7 +31,7 @@ export const gameProjects: Game[] = [
 
     description: "Isometric spot-the-difference horror prototype where players monitor remote environments for subtle anomalies through a surveillance hub.",
 
-    image: sampleImage,
+    image: spectralSurveillanceImage,
 
     engine: "Unity",
     status: "Prototype",
@@ -47,7 +50,7 @@ export const gameProjects: Game[] = [
 
     description: "Fast-paced action shooter prototype with aggressive attack-and-retreat enemy behavior with varied melee and ranged threats.",
 
-    image: sampleImage,
+    image: excaliburImage,
 
     engine: "Unity",
     status: "Game Jam Prototype",
@@ -66,7 +69,7 @@ export const gameProjects: Game[] = [
 
     description: "Tower defense game with automated defenders, enemy waves, a deployable hero, and multiple maps built around lane control.",
 
-    image: sampleImage,
+    image: rnrTDImage,
 
     engine: "Unity",
     status: "Shipped",
